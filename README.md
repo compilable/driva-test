@@ -6,7 +6,7 @@ Create a user multi step input form, this should behave as a single page applica
 
 The screenshots can be found on the project root folder
 ![Step 01](/step1.png?raw=true "Step One")
-![Step 02](/step1.png?raw=true "Step Two")
+![Step 02](/step2.png?raw=true "Step Two")
 
 ### Step One
 As you can see in the screenshot, the form contains the following pieces of information:
