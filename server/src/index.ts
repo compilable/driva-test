@@ -1,11 +1,10 @@
-import * as express from 'express';
-import * as bodyParser from 'body-parser';
-import * as cors from 'cors';
-const server = express();
-const port = 8080;
-server.use(cors());
-server.use(bodyParser.json());
 
-server.listen(port, () => {
-  console.log(`Server is listening at http://localhost:${port}`);
+import APIServer from "./APIServer"
+import http from "http";
+const port = parseInt(process.env.PORT || "8080");
+const server = http.createServer(APIServer);
+server.listen(port);
+
+server.on("listening", () => {
+	console.log(`Server is listening at http://localhost:${port}`);
 });
