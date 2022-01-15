@@ -1,11 +1,9 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
-    // "moduleResolution": "node",
-    "module": "commonjs",
-    "allowJs": true,
-    "target": "es6"
-  },
-  "include": ["./src/**/*", "index.ts"],
-  "exclude": ["./dist"]
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": ["esnext"],
+    "esModuleInterop": true
+  }
 }

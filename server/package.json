@@ -9,30 +9,39 @@
     "start": "npm run clean && npm run build && node -r source-map-support/register dist/index.js",
     "start-dev-inspect": "tsc && nodemon --inspect ./dist/index.js",
     "start-dev": "nodemon ./dist/index.js",
-    "test": "jest --watch",
+    "test": "jest --watchAll",
     "test-ci": "jest --coverage -u"
   },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.36",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^17.0.8",
+    "@types/supertest": "^2.0.11",
+    "@types/validator": "^13.7.1",
+    "jest": "^24.9.0",
+    "prisma": "^3.8.0",
+    "supertest": "^6.2.1",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^10.4.0",
+    "tslint": "^5.12.0",
+    "tslint-config-shopify": "^3.0.2",
+    "typescript": "^4.5.4"
+  },
   "dependencies": {
+    "@prisma/client": "^3.8.0",
     "@types/body-parser": "^1.17.1",
     "@types/cors": "^2.8.6",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
+    "express-validator": "^6.14.0",
+    "morgan": "^1.10.0",
     "mysql2": "^2.0.1",
     "nodemon": "^2.0.1",
     "sequelize": "^5.21.2",
     "sequelize-cli": "^5.5.1"
-  },
-  "devDependencies": {
-    "@types/jest": "^24.0.23",
-    "@types/express": "^4.16.0",
-    "@types/node": "^12.12.12",
-    "jest": "^24.9.0",
-    "ts-jest": "^24.2.0",
-    "ts-node": "^7.0.1",
-    "tslint": "^5.12.0",
-    "tslint-config-shopify": "^3.0.2",
-    "typescript": "^3.2.2"
   }
 }
