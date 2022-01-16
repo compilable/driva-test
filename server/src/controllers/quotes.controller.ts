@@ -3,6 +3,7 @@ import { Request, Response, NextFunction } from 'express'
 const prisma = new PrismaClient()
 import { toObject } from '../utils/util_v1.0'
 const { validationResult } = require('express-validator');
+const crypto = require('crypto')
 
 export async function fetchQuotes(request: Request, response: Response, next?: NextFunction) {
     console.log("INFO: recived featch all request.")
@@ -36,12 +37,18 @@ export async function createQuote(request: Request, response: Response, next?: N
 
     console.dir(request.body)
     try {
+        const newQUoteData:any =request.body
+        // set server data
+        newQUoteData.uuid = crypto.randomUUID()
+        newQUoteData.status = false
+        newQUoteData.created_at = new Date()
+
+        console.dir(request.body)
         const newQuote = await prisma.quotes.create(
             {
-                data: request.body
+                data: newQUoteData
             })
         response.status(200).json(toObject(newQuote))
-
     } catch (e: any) {
         console.error(e)
         response.status(500).json({ status: 'unsucessful' });
