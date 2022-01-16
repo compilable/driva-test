@@ -9,8 +9,8 @@
 - files were separated to controller, models and rout folders and the expressjs server is kept in the main folder for easy to navigate. 
 - More unit-test to be added if time permits.
 
-#### DB URL Update:
-I had a port conflict in my local machine, so had to use the prot `4306` to connect to the mysql. Please update the DATABASE_URL value found in  `.env` file to reflect the DB configuration under `server/`.
+###### DB URL Update:
+>I had a port conflict in my local machine, so had to use the prot `4306` to connect to the mysql. Please update the DATABASE_URL value found in  `.env` file to reflect the DB configuration under `server/`.
 
 ### ui (client):
 
