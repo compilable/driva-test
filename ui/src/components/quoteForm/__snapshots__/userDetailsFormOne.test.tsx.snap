@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has the userDetailsFormOne container loaded 1`] = `
+<Container
+  style={
+    Object {
+      "margin": "5%",
+    }
+  }
+>
+  <Header
+    as="h2"
+  >
+    Tell us about yourself
+  </Header>
+  <Card
+    fluid={true}
+  >
+    <Form
+      as="form"
+      style={
+        Object {
+          "margin": "2%",
+        }
+      }
+    >
+      <InputElement
+        formErrors={Object {}}
+        formField="userFirstName"
+        lableText="First Name"
+        placeholderText="As it appears on your license"
+        required={true}
+        showCustomError={[MockFunction]}
+        validationHook={
+          Object {
+            "name": "userFirstName",
+            "onBlur": [Function],
+            "onChange": [Function],
+            "ref": [Function],
+          }
+        }
+      />
+      <InputElement
+        formField="userMiddleName"
+        lableText="Middle Name"
+        placeholderText="Optional"
+        required={false}
+        validationHook={
+          Object {
+            "name": "userMiddleName",
+            "onBlur": [Function],
+            "onChange": [Function],
+            "ref": [Function],
+          }
+        }
+      />
+      <InputElement
+        formErrors={Object {}}
+        formField="userLastName"
+        lableText="Last Name"
+        placeholderText="As it appears on your license"
+        required={true}
+        showCustomError={[MockFunction]}
+        validationHook={
+          Object {
+            "name": "userLastName",
+            "onBlur": [Function],
+            "onChange": [Function],
+            "ref": [Function],
+          }
+        }
+      />
+      <InputElement
+        formErrors={Object {}}
+        formField="userMobileNumber"
+        lableText="Mobile Number"
+        placeholderText="+61"
+        required={true}
+        showCustomError={[MockFunction]}
+        validationHook={
+          Object {
+            "name": "userMobileNumber",
+            "onBlur": [Function],
+            "onChange": [Function],
+            "ref": [Function],
+          }
+        }
+      />
+      <InputElement
+        formErrors={Object {}}
+        formField="userEmail"
+        lableText="Email"
+        placeholderText="Please enter a valid email"
+        required={true}
+        showCustomError={[MockFunction]}
+        validationHook={
+          Object {
+            "name": "userEmail",
+            "onBlur": [Function],
+            "onChange": [Function],
+            "ref": [Function],
+          }
+        }
+      />
+      <Segment
+        basic={true}
+        textAlign="center"
+      >
+        <Button
+          as="button"
+          content="      Next      "
+          icon="right arrow"
+          labelPosition="left"
+          onClick={[Function]}
+        />
+      </Segment>
+    </Form>
+  </Card>
+</Container>
+`;
