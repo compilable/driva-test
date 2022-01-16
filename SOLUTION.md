@@ -7,6 +7,7 @@
 - I would have to create the filter, delete and edit functionalities if time permits.
 - Sever-side input validation was done using `express-validator` middleware.
 - files were separated to controller, models and rout folders and the expressjs server is kept in the main folder for easy to navigate. 
+- More unit-test to be added if time permits.
 
 
 ### ui (client):
@@ -17,7 +18,7 @@
 - Data is stored to local storage before sending to the server.
 - Error messages are modularized to be loaded from the 3rd party service to support internationalization.
 - I have added a few TODO's that could have been done if time permits. These includes moving certain code to separate components, adding caching for performance etc.
-
+- Definelty more unit-test to be added if time permits.
 
 
 ## ui screenshots

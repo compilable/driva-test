@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has the main component loaded 1`] = `
+<styled.div>
+  <AppWrapper />
+</styled.div>
+`;
+
+exports[`has the main container loaded 1`] = `
+<styled.div>
+  <AppWrapper />
+</styled.div>
+`;
+
+exports[`has the wrapper loaded 1`] = `
+<Router
+  location={
+    Object {
+      "hash": "",
+      "key": "default",
+      "pathname": "/",
+      "search": "",
+      "state": null,
+    }
+  }
+  navigationType="POP"
+  navigator={
+    Object {
+      "action": "POP",
+      "back": [Function],
+      "block": [Function],
+      "createHref": [Function],
+      "forward": [Function],
+      "go": [Function],
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "key": "default",
+        "pathname": "/",
+        "search": "",
+        "state": null,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <AppWrapper />
+</Router>
+`;
