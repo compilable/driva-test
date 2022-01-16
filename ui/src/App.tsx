@@ -5,7 +5,7 @@ import UserDetailsFormTwo from "./components/quoteForm/userDetailsFormTwo"
 import { Route, Routes, useNavigate } from "react-router-dom"
 import { getCustomErrorMessage, MainContainer, setFormData } from "./utils/util_v1.0"
 
-const AppWrapper = () => {
+export const AppWrapper = () => {
 
   const navigate = useNavigate()
 
@@ -37,7 +37,7 @@ const AppWrapper = () => {
 }
 
 
-const App = () => {
+export const App = () => {
 
   useEffect(() => {
     // reset the 
@@ -52,4 +52,4 @@ const App = () => {
   )
 };
 
-export default App;
+
