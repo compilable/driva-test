@@ -18,6 +18,13 @@
 - Error messages are modularized to be loaded from the 3rd party service to support internationalization.
 - I have added a few TODO's that could have been done if time permits. These includes moving certain code to separate components, adding caching for performance etc.
 
+
+
+## ui screenshots
+![Step 01](/solution_1.png?raw=true "Step One")
+![Step 02](/solution_2.png?raw=true "Step Two")
+
+
 ### Reference:
 
 https://restfulapi.net/resource-naming/
