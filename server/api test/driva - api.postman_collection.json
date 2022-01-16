@@ -32,7 +32,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n        \"uuid\": \"UUID_20\",\n    \"status\": true,\n    \"mobile\": \"0425252522\",\n    \"email\": \"TEST@test.com\",\n    \"quote_data\": {\n        \"key1\": \"val3\",\n        \"key2\": \"val4\"\n    },\n    \"created_at\": \"2022-01-14T16:04:09.000Z\"\n}"
+					"raw": "{\n\n    \"mobile\": \"0425252522\",\n    \"email\": \"TEST@test.com\",\n    \"quote_data\": {\n        \"key1\": \"val3\",\n        \"key2\": \"val4\"\n    }\n}"
 				},
 				"description": ""
 			},
